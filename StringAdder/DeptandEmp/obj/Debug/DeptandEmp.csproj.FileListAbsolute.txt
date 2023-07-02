@@ -1,0 +1,17 @@
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\bin\Debug\DeptandEmp.exe.config
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\bin\Debug\DeptandEmp.exe
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\bin\Debug\DeptandEmp.pdb
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.csproj.AssemblyReference.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\MainWindow.g.cs
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\App.g.cs
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp_MarkupCompile.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp_MarkupCompile.lref
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\MainWindow.baml
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.g.resources
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.Properties.Resources.resources
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.csproj.GenerateResource.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.csproj.CoreCompileInputs.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.exe
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\DeptandEmp\obj\Debug\DeptandEmp.pdb

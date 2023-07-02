@@ -1,0 +1,17 @@
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\bin\Debug\ex.exe.config
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\bin\Debug\ex.exe
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\bin\Debug\ex.pdb
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.csproj.AssemblyReference.cache
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\MainWindow.g.cs
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\App.g.cs
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex_MarkupCompile.cache
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex_MarkupCompile.lref
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\MainWindow.baml
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.g.resources
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.Properties.Resources.resources
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.csproj.GenerateResource.cache
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.csproj.CoreCompileInputs.cache
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.exe
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\ex.pdb
+C:\Users\Amey.Kesarkar\source\repos\ex\ex\obj\Debug\GeneratedInternalTypeHelper.g.cs

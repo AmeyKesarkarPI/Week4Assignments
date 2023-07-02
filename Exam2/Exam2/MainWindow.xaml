@@ -1,0 +1,53 @@
+﻿<Window x:Class="Exam2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exam2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized" ResizeMode="NoResize">
+    <Window.DataContext>
+        <local:MainWindowViewModel />
+    </Window.DataContext>
+    
+    <Window.Resources>
+        <DataTemplate DataType="x:Type local:AboutViewModel">
+            <local:AboutView/>
+        </DataTemplate>
+        <DataTemplate DataType="x:Type local:HomeViewModel">
+            <local:HomeView/>
+        </DataTemplate>
+        <DataTemplate DataType="x:Type local:GalleryViewModel">
+            <local:GalleryView/>
+        </DataTemplate>
+    </Window.Resources>
+    <StackPanel>
+        <ItemsControl x:Name="PageNavbar" ItemsSource="{Binding Pages}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Height="40" 
+                                Orientation="Horizontal"
+                                VerticalAlignment="Top">
+                    </StackPanel>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button FontSize="17"
+                           FontWeight ="Bold"
+                           Background="#7E7F9A"
+                           Margin="1"
+                           
+                           Content="{Binding PageName}"
+                           Command="{Binding ElementName= PageNavbar, Path = DataContext.NavigateCommand, UpdateSourceTrigger=PropertyChanged}"></Button>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <StackPanel Height="1000"
+                    Background="Gainsboro">
+            <ContentPresenter Content="{Binding ActiveView, UpdateSourceTrigger=PropertyChanged}">
+                
+            </ContentPresenter>
+        </StackPanel>
+    </StackPanel>
+</Window>

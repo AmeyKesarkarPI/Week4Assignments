@@ -1,0 +1,17 @@
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\bin\Debug\StringAdder.exe.config
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\bin\Debug\StringAdder.exe
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\bin\Debug\StringAdder.pdb
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.csproj.AssemblyReference.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\MainWindow.g.cs
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\App.g.cs
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder_MarkupCompile.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder_MarkupCompile.lref
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\MainWindow.baml
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.g.resources
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.Properties.Resources.resources
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.csproj.GenerateResource.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.csproj.CoreCompileInputs.cache
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.exe
+C:\Users\Amey.Kesarkar\source\repos\StringAdder\StringAdder\obj\Debug\StringAdder.pdb

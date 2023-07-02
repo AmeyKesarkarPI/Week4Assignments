@@ -1,0 +1,75 @@
+﻿<Window x:Class="StringAdder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StringAdder"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+    <Window.DataContext>
+        <local:MainWindowViewModel>
+        </local:MainWindowViewModel>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    Height="600"
+                    Width="400"
+                    Background="#eeeeee">
+            <StackPanel Orientation="Horizontal"
+                        Height="35"
+                        Margin="0,20"
+                        HorizontalAlignment="Center">
+                <TextBox Text="{Binding SelectedItem.Content}"
+                         Height="35"
+                         Width="150"
+                         Margin="40,0">
+
+                </TextBox>
+                <Button Height="20"
+                        Width="70"
+                        Content="+"
+                        FontWeight="Bold"
+                        Command="{Binding AddButtonCommand}">
+
+                </Button>
+            </StackPanel>
+
+            <!--<ScrollViewer Height="600"
+                          Width="400">
+
+            </ScrollViewer>-->
+            
+            <ItemsControl ItemsSource="{Binding Items}"
+                          Name="ItemObj">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal"
+                        Height="35"
+                        Margin="0,20"
+                        HorizontalAlignment="Center">
+                            <TextBox Text="{Binding Path= Content, UpdateSourceTrigger=PropertyChanged}"
+                                     Height="35"
+                                     Width="150"
+                                     Margin="40,0">
+
+                            </TextBox>
+                            <Button Height="20"
+                                    Width="70"
+                                    Content="-"
+                                    FontWeight="Bold"
+                                    Command="{Binding DeleteButtonCommand}">
+
+                            </Button>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Label FontSize ="17"
+                   Margin="0,20" 
+                   Content="{Binding DisplayString}">
+
+            </Label>
+        </StackPanel>
+    </Grid>
+</Window>

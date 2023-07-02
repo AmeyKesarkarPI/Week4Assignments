@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="MVVMKioskSystem.TokenViewModel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMKioskSystem"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="Label" x:Key="CredLblStyle">
+            <Setter Property="Width" Value="150">
+
+            </Setter>
+            <Setter Property="FontSize" Value="17">
+
+            </Setter>
+            <Setter Property="FontWeight" Value="SemiBold">
+
+            </Setter>
+        </Style>
+        <Style TargetType="TextBox" x:Key="CredTxtStyle">
+            <Setter Property="Width" Value="250">
+
+            </Setter>
+            <Setter Property="FontSize" Value="17">
+
+            </Setter>
+            <Setter Property="FontWeight" Value="SemiBold">
+
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Border Width="810"
+                Height="910"
+                BorderBrush="LightGray"
+                BorderThickness="1"
+                CornerRadius="5"
+                Background="White">
+
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+        </Border>
+
+        <StackPanel Width="800"
+                    Height="900"
+                    HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal"
+                        Width="750"
+                        Height="40"
+                        Margin="0,40">
+                <Label Content="Enter Token:" 
+                       Style="{StaticResource CredLblStyle}">
+                </Label>
+                <TextBox Text="{Binding Token}"
+                         Style="{StaticResource CredTxtStyle}">
+                    
+                </TextBox>
+                <Button Height="40"
+                        Width="100"
+                        Margin="60,0"
+                        Content="Search">
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        Width="750"
+                        Height="40"
+                        Margin="0,40">
+                <Separator Width="350"/>
+
+                <Label Content="OR" 
+                       FontWeight="SemiBold"
+                       FontSize="17">
+                </Label>
+                <Separator Width="350"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        Width="750"
+                        Height="40">
+                <ComboBox Height="100" 
+                      Width="250"
+                      BorderThickness="0"
+                      ItemsSource="{Binding AgentViewModels}"
+                      SelectedItem="{Binding SelectedAgentViewModel}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding PageName}"></Label>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

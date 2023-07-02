@@ -1,0 +1,36 @@
+﻿<Window x:Class="MVVMKioskSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMKioskSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized" ResizeMode="NoResize">
+    <Window.DataContext>
+        <local:MainWindowViewModel>
+        </local:MainWindowViewModel>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType ="{x:Type local:UserWindowViewModel}">
+            <local:UserWindowView/>
+        </DataTemplate>
+        <DataTemplate DataType ="{x:Type local:LoginWindowViewModel}">
+            <local:LoginWindowView />
+        </DataTemplate>
+        <DataTemplate DataType ="{x:Type local:AgentWindowViewModel}">
+            <local:AgentWindowView />
+        </DataTemplate>
+        <DataTemplate DataType ="{x:Type local:AdminWindowViewModel}">
+            <local:AdminWindowView />
+        </DataTemplate>
+        <DataTemplate DataType ="{x:Type local:TokenSearchViewModel}">
+            <local:TokenViewModel />
+        </DataTemplate>
+        <DataTemplate DataType ="{x:Type local:BulkSearchViewModel}">
+            <local:BulkViewModel />
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <ContentPresenter Content="{Binding ActiveView}"></ContentPresenter>
+    </Grid>
+</Window>
